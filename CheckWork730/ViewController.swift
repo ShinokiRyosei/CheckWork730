@@ -47,6 +47,7 @@ class ViewController: UIViewController {
             nextButton.isEnabled = true
 
         }
+        backButton.isEnabled = true
     }
 
     @IBAction func back() {
@@ -64,6 +65,7 @@ class ViewController: UIViewController {
             backButton.isEnabled = true
 
         }
+        nextButton.isEnabled = true 
     }
 }
 
